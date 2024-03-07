@@ -2,6 +2,7 @@ import React from "react";
 import { data } from "../data/data.js";
 
 const Work = () => {
+  
   // projects file
   const project = data;
   //setProject(data);
