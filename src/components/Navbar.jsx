@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className=" w-full h-[70px] flex justify-between items-center px-4n shadow-lg shadow-[#522f66] bg-[#0a192f] text-gray-200">
+      <div className="fixed w-full h-[70px] flex justify-between items-center px-4 shadow-lg shadow-[#522f66] bg-[#0a192f] text-gray-200">
         <div className="pl-6">
           <Link to="home" smooth={true} duration={700}>
             <a href="/">

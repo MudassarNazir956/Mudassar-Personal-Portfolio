@@ -27,7 +27,10 @@ const Home = () => {
               ]}
               wrapper="span"
               speed={50}
-              style={{ fontSize: "1.8em", display: "inline-block" }}
+              style={{
+                fontSize: "1.8em",
+                display: "inline-block",
+              }}
               repeat={Infinity}
             />
           </h2>
@@ -55,7 +58,7 @@ const Home = () => {
         <div>
           <Link to="home" smooth={true} duration={700}>
             <TbArrowBarUp
-              className="text-[#ffffff] hidden lg:flex  fixed top-[90%] left-[95%] cursor-pointer"
+              className="text-[#ffffff] flex  fixed top-[92%] left-[85%] sm:top-[90%] sm:left-[95%] cursor-pointer"
               size={40}
             />
           </Link>
