@@ -15,10 +15,10 @@ export const data = [
   },
   {
     id: 2,
-    name: "Tech Gedgets Store",
+    name: "E-Tech Gedgets Store",
     image: WorkImg2,
-    github: "https://github.com/MudassarNazir956/Tech-Gadget-Store",
-    live: "https://tech-gadget-store.vercel.app/",
+    github: "https://github.com/MudassarNazir956/E-Tech-Store-React-JS",
+    live: "https://e-tech-store-mudassar.vercel.app/",
   },
   {
     id: 3,
@@ -47,5 +47,5 @@ export const data = [
     image: WorkImg6,
     github: "https://github.com/MudassarNazir956/Currency-Converter",
     live: "https://currency-converter-xi-lovat.vercel.app/",
-  }
+  },
 ];

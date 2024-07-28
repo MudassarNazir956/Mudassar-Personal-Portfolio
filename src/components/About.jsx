@@ -1,5 +1,5 @@
 import React from "react";
-import imgMudi from "../assets/mudi sec img.jpeg";
+import imgMudi from "../assets/Mudassar Nazir B.jpg";
 
 const About = () => {
   return (

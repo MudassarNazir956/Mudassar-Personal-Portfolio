@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { TbBrandFiverr } from "react-icons/tb";
 import { SiUpwork } from "react-icons/si";
 import logo from "../assets/logo1.png";
-import resume from "../assets/Resume/Mudassar Nazir CV.pdf";
+import resume from "../assets/Resume/Mudassar Nazir Resume.pdf";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
