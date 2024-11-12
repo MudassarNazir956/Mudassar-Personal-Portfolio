@@ -58,7 +58,7 @@ const Home = () => {
         <div>
           <Link to="home" smooth={true} duration={700}>
             <TbArrowBarUp
-              className="text-[#ffffff] flex  fixed top-[92%] left-[85%] sm:top-[90%] sm:left-[95%] cursor-pointer"
+              className="text-[#ffffff] flex hover:text-pink-600 duration-300 ease-in-out fixed top-[92%] left-[85%] sm:top-[90%] sm:left-[95%] cursor-pointer"
               size={40}
             />
           </Link>

@@ -1,4 +1,4 @@
-import WorkImg1 from "../assets/projects/Admindashborad.jpg";
+import WorkImg1 from "../assets/projects/ReactAdminDashborad.jpg";
 import WorkImg2 from "../assets/projects/techstore.jpg";
 import WorkImg3 from "../assets/projects/RPS.jpg";
 import WorkImg4 from "../assets/projects/Textutils.jpg";
@@ -8,10 +8,10 @@ import WorkImg6 from "../assets/projects/Currencyconverter.jpg";
 export const data = [
   {
     id: 1,
-    name: "User Management Dashboard",
+    name: "React Admin Dashboard",
     image: WorkImg1,
-    github: "https://github.com/MudassarNazir956/Admin-Dashborad",
-    live: "https://admin-dashborad-five.vercel.app/",
+    github: "https://github.com/MudassarNazir956/React_Admin_Dashboard",
+    live: "https://react-admin-dashboard-khaki.vercel.app/",
   },
   {
     id: 2,

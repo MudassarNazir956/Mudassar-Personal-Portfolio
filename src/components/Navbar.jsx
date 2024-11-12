@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
 
         {/* Menu */}
-        <div>
+        <div className="text-[1.11rem] font-light">
           <ul className="hidden md:flex tracking-wider ">
             <li>
               <Link

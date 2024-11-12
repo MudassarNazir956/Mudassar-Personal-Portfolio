@@ -10,7 +10,7 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="w-full md:h-[130vh] text-gray-300 bg-[#0a192f]  pt-96 sm:pt-0"
+      className="w-full md:h-[175vh] text-gray-300 bg-[#0a192f]  pt-96 sm:pt-0"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-3">
@@ -25,7 +25,7 @@ const Work = () => {
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-5">
           {/* Gird Item */}
           {project.map((item, index) => (
             <div
@@ -51,7 +51,7 @@ const Work = () => {
                   <a href={item.github} target="_blank">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
+                              bg-white text-gray-700 font-bold text-lg"
                     >
                       Code
                     </button>

@@ -7,7 +7,7 @@ import Tailwind from "../assets/tailwind.png";
 import Bootstrap from "../assets/bootstrap-logo.png";
 import MaterialUI from "../assets/MUI.png";
 import ReactImg from "../assets/react.png";
-import Nextjs from "../assets/nextjs.svg";
+import FramerMotion from "../assets/Framer-motion.png";
 import GitHub from "../assets/github.png";
 
 const Skills = () => {
@@ -68,7 +68,7 @@ const Skills = () => {
               src={Tailwind}
               alt="Tailwind Icon"
             />
-            <p className="my-4">Tailwind</p>
+            <p className="my-4">Tailwind CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c14] hover:scale-110 duration-300 pt-4">
             <img
@@ -81,27 +81,30 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c14] hover:scale-110 duration-300 pt-4">
             <img
               className="mx-auto w-20 contrast-200"
+              src={ReactImg}
+              alt="ReactImg Icon"
+            />
+            <p className="my-4">React JS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c14] hover:scale-110 duration-300 pt-4">
+            <img
+              className="mx-auto w-20 contrast-200"
               src={MaterialUI}
               alt="MaterialUI Icon"
             />
             <p className="my-4">Material UI</p>
           </div>
+
           <div className="shadow-md shadow-[#040c14] hover:scale-110 duration-300 pt-4">
             <img
               className="mx-auto w-20 contrast-200"
-              src={ReactImg}
-              alt="ReactImg Icon"
+              src={FramerMotion}
+              alt="Framer Motion Icon"
             />
-            <p className="my-4">React</p>
+            <p className="my-4">Framer Motion</p>
           </div>
-          <div className="shadow-md shadow-[#040c14] hover:scale-110 duration-300 pt-4">
-            <img
-              className="mx-auto w-20 contrast-200"
-              src={Nextjs}
-              alt="Nextjs Icon"
-            />
-            <p className="my-4">Next JS</p>
-          </div>
+          
+          
           <div className="shadow-md shadow-[#040c14] hover:scale-110 duration-300 pt-4">
             <img
               className="mx-auto w-20 contrast-200"
